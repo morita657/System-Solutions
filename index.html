@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>合同会社システムソリューションズ</title>
+    <style>
+        :root {
+            --primary-color: #004488;
+            --accent-color: #00aaff;
+            --text-color: #333;
+            --bg-light: #f4f7f9;
+        }
+
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.8;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 15px;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        section {
+            margin-bottom: 80px;
+        }
+
+        h2 {
+            border-left: 5px solid var(--primary-color);
+            padding-left: 15px;
+            color: var(--primary-color);
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            color: var(--primary-color);
+            margin-top: 40px;
+        }
+
+        .lead-text {
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .services {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .service-card {
+            background: var(--bg-light);
+            padding: 30px;
+            border-radius: 8px;
+            border-top: 4px solid var(--accent-color);
+        }
+
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .info-table th, .info-table td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .info-table th {
+            width: 30%;
+            background-color: var(--bg-light);
+            color: var(--primary-color);
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>合同会社システムソリューションズ</h1>
+    <p>デジタルの力で、ビジネスの可能性を無限に広げる</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>私たちについて</h2>
+        <p class="lead-text">
+            合同会社システムソリューションズは、単なるソフトウェア開発企業ではありません。お客様のビジネス課題を深く理解し、テクノロジーと創意工夫で最適なソリューションを創造します。企画段階からの密な打ち合わせ、最先端の開発技術、そして導入後の継続的なサポート—すべてを通じて、お客様の成功を全力でサポートします。金融資産運用の知見も活かし、企業の経営基盤をトータルにサポートする信頼のパートナーです。
+        </p>
+    </section>
+
+    <section>
+        <h2>事業コンセプト</h2>
+        <h3>継続的なサポートで、システムを活かし続ける</h3>
+        <p><strong>開発後の保守・運営・管理で、真のパートナーシップを実現</strong></p>
+        <p>
+            アプリケーション開発後の保守・管理・運営業務を通じて、システムの最適な稼働を継続的に確保します。セキュリティパッチの適用、パフォーマンス最適化、ユーザーサポートまで、細かいニーズに対応。さらに企業の成長段階に応じた金融資産運用コンサルティングも提供し、資本効率の向上と長期的な経営安定化をサポートします。
+        </p>
+    </section>
+
+    <section>
+        <h2>サービス内容</h2>
+        <p><strong>革新的なアプリケーション開発で、ビジネスの未来を創造する</strong><br>
+        企画から運営まで、フルサイクルでお客様のデジタル変革をサポート</p>
+        
+        <div class="services">
+            <div class="service-card">
+                <h3>エンタープライズアプリケーション開発</h3>
+                <p>大規模企業向けの基幹システムやERPソリューション、業務効率化アプリケーションの開発を専門としています。複雑なビジネスプロセスを最適化し、スケーラブルで堅牢なシステムを構築。導入後の保守・管理も責任を持って対応し、お客様のビジネス成長に合わせた継続的なアップデートを提供します。</p>
+            </div>
+            <div class="service-card">
+                <h3>クラウドベースソリューション & モバイルアプリ</h3>
+                <p>スマートフォンやタブレット対応のモバイルアプリケーションから、SaaS型のクラウドサービスまで、現代的なニーズに対応したソフトウェアを開発・配信します。リモートワーク対応システム、リアルタイムコラボレーションツール、IoT連携アプリケーションなど、最新技術を活用したイノベーティブなソリューションをお届けします。</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>会社概要</h2>
+        <table class="info-table">
+            <tr><th>会社名</th><td>合同会社システムソリューションズ</td></tr>
+            <tr><th>事業者名</th><td>森田 剛広</td></tr>
+            <tr><th>代表者名</th><td>代表取締役　森田 剛広</td></tr>
+            <tr><th>住所</th><td>神奈川県横浜市神奈川区金港町５―１４クアドリフォリオ８階</td></tr>
+            <tr><th>電話番号</th><td>070-4452-3192</td></tr>
+            <tr><th>メールアドレス</th><td>tm4rwork@gmail.com</td></tr>
+            <tr><th>従業員人数</th><td>1人</td></tr>
+            <tr><th>設立日</th><td>2025年12月</td></tr>
+            <tr><th>事業内容</th><td>
+              <p>各種アプリケーションソフトの企画、開発、制作、配信、保守、管理、運営、販売及びそれらの受託 </p>
+              <p>株式、債券、外国為替、デリバティブ、ファンド等への投資業務</p>
+              <p>前各号に附帯関連する一切の事業</p>
+            </td></tr>
+            
+            <tr><th>資本金</th><td>500万円</td></tr>
+        </table>
+    </section>
+</div>
+
+<footer>
+    &copy; 2025 System Solutions LLC. All Rights Reserved.
+</footer>
+
+</body>
+</html>
